@@ -11,6 +11,9 @@ const leo = new Animal("Leo", "Lion");
 const zazu = new Bird("Zazu", "Hornbill", "2 feet");
 const baloo = new Mammal("Baloo", "Bear", "Brown");
 
+console.log(typeof myZoo);
+
+// Create instances
 myZoo.addAnimal(leo);
 myZoo.addAnimal(zazu);
 myZoo.addAnimal(baloo);
